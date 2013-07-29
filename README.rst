@@ -6,6 +6,6 @@
 Порождающие паттерны
 ====================
 
-* Абстрактная фабрика (Abstract Factory)
-* Строитель (Builder)
-* Одиночка (Singleton)
+* Абстрактная фабрика (`Abstract Factory <generating/abstract_factory.py>`_)
+* Строитель (`Builder <generating/builder.py>`_)
+* Одиночка (`Singleton <generating/singleton.py>`_)
