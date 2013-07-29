@@ -20,7 +20,7 @@ class Builder(object):
     def build_lamp(self):
         raise NotImplementedError()
 
-    def build_baterry(self):
+    def build_battery(self):
         raise NotImplementedError()
 
     def create_flashlight(self):
@@ -62,7 +62,7 @@ class FlashlightBuilder(Builder):
     def build_body(self):
         return Body()
 
-    def build_baterry(self):
+    def build_battery(self):
         return Battery()
 
     def build_lamp(self):
@@ -71,7 +71,7 @@ class FlashlightBuilder(Builder):
     def create_flashlight(self):
         body = self.build_body()
         lamp = self.build_lamp()
-        battery = self.build_baterry()
+        battery = self.build_battery()
         return Flashlight(body, lamp, battery)
 
 
