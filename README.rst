@@ -17,3 +17,4 @@
 ====================
 
 * Адаптер (`Adapter <structural/adapter.py>`_)
+* Мост (`Bridge <structural/bridge.py>`_)
