@@ -11,3 +11,9 @@
 * Фабричный метод (`Factory Method <generating/factory_method.py>`_)
 * Прототип (`Prototype <generating/prototype.py>`_)
 * Одиночка (`Singleton <generating/singleton.py>`_)
+
+
+Структурные паттерны
+====================
+
+* Адаптер (`Adapter <structural/adapter.py>`_)
