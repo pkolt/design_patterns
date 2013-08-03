@@ -18,3 +18,4 @@
 
 * Адаптер (`Adapter <structural/adapter.py>`_)
 * Мост (`Bridge <structural/bridge.py>`_)
+* Компоновщик (`Composite <structural/composite.py>`_)
