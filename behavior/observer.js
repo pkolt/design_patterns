@@ -16,6 +16,12 @@ function Subject(){
 
 Subject.prototype.attach = function(observer){
     /* подписаться на оповещение */
+
+    // проверим класс добавляемого объекта
+    if (!observer instanceof Observer){
+        throw Error('Неверный класс объекта');
+    }
+
     for(var i = 0; i < this.observers.length; i++){
         if(this.observers[i] === observer){
             return;
