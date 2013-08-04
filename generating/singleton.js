@@ -8,16 +8,22 @@
 
 
 function Singleton(){
-    var instance = this,
-        prototype = Singleton.prototype;
+    var instance;
 
+    // переопределяем конструктор
     Singleton = function(){
         return instance;
     };
 
-    Singleton.prototype = prototype;
-    Singleton.constructor = Singleton;
+    // переносим свойства прототипа
+    Singleton.prototype = this;
+
+    // создаем экземпляр
+    instance = new Singleton();
+
+    // переустанавливаем указатель на конструктор
     instance.constructor = Singleton;
+
     return instance;
 }
 
