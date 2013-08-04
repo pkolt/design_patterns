@@ -1,21 +1,30 @@
+/*
+* Одиночка (Singleton) - паттерн, порождающий объекты.
+*
+* Гарантирует, что у класса есть только один экземпляр,
+* и предоставляет к нему глобальную точку доступа.
+*
+ */
 
-function Singleton(name){
-    if (typeof Singleton.instance === 'object'){
-        return Singleton.instance;
-    }
-    this.name = name;
-    Singleton.instance = this;
-    return this;
+
+function Singleton(){
+    var instance = this,
+        prototype = Singleton.prototype;
+
+    Singleton = function(){
+        return instance;
+    };
+
+    Singleton.prototype = prototype;
+    Singleton.constructor = Singleton;
+    instance.constructor = Singleton;
+    return instance;
 }
 
-Singleton.prototype.getName = function(){
-    return this.name;
-};
 
-var obj1 = new Singleton('MyInstance 1');
-console.log(obj1.getName()); // MyInstance 1
+var obj1 = new Singleton;
+var obj2 = new Singleton;
+Singleton.prototype.newProperty = 0;
 
-var obj2 = new Singleton('MyInstance 2');
-console.log(obj2.getName()); // MyInstance 1
-
-console.log(obj1 === obj2); // True
+console.log(obj1 === obj2);  // true
+console.log(obj1.newProperty);  // 0
