@@ -20,6 +20,7 @@
 * Адаптер (Adapter) `Python <structural/adapter.py>`_
 * Мост (Bridge) `Python <structural/bridge.py>`_
 * Компоновщик (Composite) `Python <structural/composite.py>`_
+* Декоратор (Decorator) `Python <structural/decorator.py>`_
 
 
 Паттерны поведения
