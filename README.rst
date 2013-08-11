@@ -21,6 +21,7 @@
 * Мост (Bridge) `Python <structural/bridge.py>`_
 * Компоновщик (Composite) `Python <structural/composite.py>`_
 * Декоратор (Decorator) `Python <structural/decorator.py>`_
+* Фасад (Facade) `Python <structural/facade.py>`_
 
 
 Паттерны поведения
