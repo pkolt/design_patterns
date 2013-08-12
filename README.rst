@@ -22,6 +22,7 @@
 * Компоновщик (Composite) `Python <structural/composite.py>`_
 * Декоратор (Decorator) `Python <structural/decorator.py>`_
 * Фасад (Facade) `Python <structural/facade.py>`_
+* Приспособленец (Flyweigth) `Python <structural/flyweight.py>`_
 
 
 Паттерны поведения
