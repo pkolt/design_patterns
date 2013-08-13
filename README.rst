@@ -23,6 +23,7 @@
 * Декоратор (Decorator) `Python <structural/decorator.py>`_
 * Фасад (Facade) `Python <structural/facade.py>`_
 * Приспособленец (Flyweigth) `Python <structural/flyweight.py>`_
+* Заместитель (Proxy) `Python <structural/proxy.py>`_
 
 
 Паттерны поведения
