@@ -30,4 +30,5 @@
 ==================
 
 * Цепочка обязанностей (Chain of Responsibility) `Python <behavior/chain_of_responsibility.py>`_
+* Команда (Command) `Python <behavior/command.py>`_
 * Наблюдатель (Observer) `Python <behavior/observer.py>`_, `JavaScript <behavior/observer.js>`_
