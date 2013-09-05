@@ -33,4 +33,5 @@
 * Команда (Command) `Python <behavior/command.py>`_
 * Интерпретатор (Interpreter) `Python <behavior/interpreter.py>`_
 * Итератор (Iterator) `Python <behavior/iterator.py>`_
+* Посредник (Mediator) `Python <behavior/mediator.py>`_
 * Наблюдатель (Observer) `Python <behavior/observer.py>`_, `JavaScript <behavior/observer.js>`_
