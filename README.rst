@@ -36,3 +36,4 @@
 * Посредник (Mediator) `Python <behavior/mediator.py>`_
 * Хранитель (Memento) `Python <behavior/memento.py>`_
 * Наблюдатель (Observer) `Python <behavior/observer.py>`_, `JavaScript <behavior/observer.js>`_
+* Состояние (State) `Python <behavior/state.py>`_
