@@ -38,3 +38,4 @@
 * Наблюдатель (Observer) `Python <behavior/observer.py>`_, `JavaScript <behavior/observer.js>`_
 * Состояние (State) `Python <behavior/state.py>`_
 * Стратегия (Strategy) `Python <behavior/strategy.py>`_
+* Шаблонный метод (Template method) `Python <behavior/template_method.py>`_
