@@ -39,3 +39,4 @@
 * Состояние (State) `Python <behavior/state.py>`_
 * Стратегия (Strategy) `Python <behavior/strategy.py>`_
 * Шаблонный метод (Template method) `Python <behavior/template_method.py>`_
+* Посетитель (Visitor) `Python <behavior/visitor.py>`_
