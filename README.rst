@@ -40,3 +40,4 @@
 * Стратегия (Strategy) `Python <behavior/strategy.py>`_
 * Шаблонный метод (Template method) `Python <behavior/template_method.py>`_
 * Посетитель (Visitor) `Python <behavior/visitor.py>`_
+* Классная доска (Blackboard) `Python <behavior/blackboard.py>`_
