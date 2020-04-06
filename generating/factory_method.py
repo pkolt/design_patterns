@@ -38,8 +38,14 @@ class MyApplication(Application):
             return ODFDocument()
         elif type_ == 'doc':
             return MSOfficeDocument()
+        else:
+            return Document()
 
 
 app = MyApplication()
 app.create_document('odf').show()  # Open document format
 app.create_document('doc').show()  # MS Office document format
+try:
+    app.create_document('pdf').show()
+except:
+    print("NotImplementedError")
